@@ -39,3 +39,7 @@ leoYacht.start();
 leoYacht.anlegen();
 leoYacht.ablegen();
 leoYacht.ausstattung();
+const maxYacht = new Yacht("green", 100, 500, "Captains Boot", 1, 5, true);
+const tomYacht = new Yacht("pink", 80, 2000, "IronShip", 2, 10, false);
+console.log(maxYacht);
+console.log(tomYacht);
